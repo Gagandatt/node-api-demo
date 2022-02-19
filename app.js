@@ -3,13 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-<<<<<<< HEAD
-    res.send('Hello World!')
-=======
-
     res.send('Hello World from gagan side')
-
->>>>>>> 69c27b0d041b0d46e5021bd065e189af9e99bde0
     res.end()
 })
 
